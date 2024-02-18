@@ -1,0 +1,68 @@
+header{
+    background-image: url(images/hero_bg.jpg);
+   z-index: -1;
+   height: 100vh;
+    background-size: cover;
+    background-position:  center;
+
+}
+.container{
+    position: absolute;
+    left: 770px;
+    top: 160px;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+.icon1{
+    width: 70px;
+    height: 70px;
+    background-color: #8b8b91;
+    border-radius: 50%;
+    
+}
+.icon2 ,.icon3 ,.icon4{
+    width: 70px;
+    height: 70px;
+    background-color: #8b8b91;
+    border-radius: 50%;
+    
+}
+.jkan{
+    color: rgb(249, 106, 106)
+}
+
+.jkan:hover{
+    color: white;
+}
+
+.dd:hover{
+background-color: red;
+padding: 5px;
+}
+.lastgame{
+  background-color: rgb(34, 29, 29);
+  padding: 90px;
+}
+  h3{
+    color:  #dddde6;
+    font-weight: 400;
+    font-size: 20px;
+}
+.hnhn>li>a{
+    text-decoration: none;
+    line-height: 35px;
+    color: #b49c73;
+}
+/* .hnhn>li>a::after{
+   content: "";
+position: absolute;
+background-color: #b49c731a;
+height: 4px;
+width: 70px;
+margin-top: 30px;
+margin-right: 50px;
+
+
+} */
